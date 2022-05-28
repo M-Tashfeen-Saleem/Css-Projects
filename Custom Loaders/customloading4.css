@@ -1,0 +1,46 @@
+body
+{
+    background-color: black;
+}
+
+.loader-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.loader
+{
+ 
+    border: 16px solid white;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    animation: rotate 3s  linear  infinite;
+}
+
+@keyframes rotate {
+      0% 
+        {
+         border-top: 16px solid #3cba54;
+         border-left: 16px solid #4885ed;
+        }
+      25% 
+        {
+         border-top: 16px solid #3cba54;
+         border-right: 16px solid  #f4c20d; 
+        }
+     50%
+        {
+         border-right: 16px solid  #f4c20d; 
+         border-bottom: 16px solid #db3236;
+        }
+     100%
+        {
+         border-bottom: 16px solid #db3236;
+         border-left: 16px solid #4885ed;
+        }
+  }

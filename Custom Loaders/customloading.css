@@ -1,0 +1,129 @@
+body
+{
+    margin: 0;
+    background-color: #161122;
+    color: white;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.circle-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.circle1
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg,#eec0c6 10% ,#7ee8fa 50%);
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.5);
+    animation: loading1 2s  infinite;
+   
+}
+
+@keyframes loading1
+{
+    0%
+    {
+        transform: translateY(-60px);
+        margin: 0;
+    }
+    40%
+    {
+        transform: translateY(0);
+        margin: 0;
+    }
+    60%
+    {
+        transform: translateY(0);
+        margin: 0;
+    }
+   
+    100%
+    {
+        transform: translateY(-60px);
+        margin: 0;
+    }
+}
+
+.circle2
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg,#eec0c6 10% ,#7ee8fa 50%);
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.5);
+    animation: loading2 2s   infinite;
+   
+}
+@keyframes loading2
+{
+    0%
+    {
+        transform: translateY(-60px);
+        margin: 10px;
+       
+    }
+    40%
+    {
+        transform: translateY(0);
+        margin: 0;
+    }
+    60%
+    {
+        transform: translateY(0);
+        margin: 0;
+    }
+   
+    100%
+    {
+        transform: translateY(-60px);
+        margin: 10px;
+    }
+}
+
+.circle3
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg,#eec0c6 10% ,#7ee8fa 50%);
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.5);
+    animation: loading3  2s infinite;
+}
+@keyframes loading3
+{
+    0%
+    {
+        transform: translateY(-60px);
+        margin: 0;
+       
+    }
+    40%
+    {
+        transform: translateY(0);
+        margin: 0;
+    }
+    60%
+    {
+        transform: translateY(0);
+        margin: 0;
+    }
+   
+    100%
+    {
+        transform: translateY(-60px);
+        margin: 0;
+    }
+}
+
+
+

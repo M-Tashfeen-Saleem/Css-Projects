@@ -1,0 +1,57 @@
+body
+{
+    background-color: black;
+}
+
+.loader-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1
+{
+    text-align: center;
+    color: wheat;
+    margin: 10px;
+}
+
+.loader
+{
+    border: 16px solid white;
+    border-top: 16px solid #3cba54;
+    border-right: 16px solid  #f4c20d;
+    border-bottom: 16px solid #db3236;
+    border-left: 16px solid #4885ed ;
+    border-radius: 10%;
+    width: 90px;
+    height: 90px;
+    animation: rotate 3s ease-in-out infinite;
+}
+
+@keyframes rotate {
+      0% 
+        {transform: rotate(0deg); 
+         border-top: 16px solid #3cba54;
+         border-right: 16px solid  #f4c20d;
+         border-bottom: 16px solid #db3236;
+         border-left: 16px solid #4885ed;
+        }
+      50% 
+        {transform: rotate(180deg);
+        border-top: 5px solid #3cba54; 
+        border-right: 5px solid  #f4c20d;
+        border-bottom: 5px solid #db3236;
+        border-left: 5px solid #4885ed;
+        border-radius: 100%;
+        }
+     100%
+        {transform: rotate(360deg);
+         border-top: 16px solid #3cba54;
+         border-right: 16px solid #f4c20d;
+         border-bottom: 16px solid #db3236;
+         border-left: 16px solid #4885ed;
+        }
+  }
