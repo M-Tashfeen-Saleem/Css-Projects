@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <div class="wave"></div>
+    <style>
+
+.wave
+        {
+           
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background: linear-gradient( 150deg, purple 5%,rgb(103, 58, 228)100%);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            clip-path: polygon(0 41%, 13% 42%, 27% 47%, 45% 54%, 60% 55%, 84% 51%, 100% 44%, 99% 98%, 0% 98%);
+            animation: wave 4s   ease-in-out infinite;
+        }
+
+        @keyframes wave 
+        {
+            0%,100%
+            {
+                clip-path: polygon(0 41%, 13% 42%, 27% 47%, 45% 54%, 60% 55%, 84% 51%, 100% 44%, 99% 98%, 0% 98%);
+            }
+            50%
+            {
+                clip-path: polygon(0 57%, 18% 57%, 34% 57%, 49% 54%, 66% 47%, 84% 40%, 100% 32%, 99% 98%, 0% 98%);
+            }
+            
+        }
+        
+  
+    </style>
+    
+</body>
+</html>
+
+
