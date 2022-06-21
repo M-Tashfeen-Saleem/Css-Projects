@@ -1,0 +1,33 @@
+body
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100px;
+}
+.dark-mode {
+    background-color: rgba( 0, 0, 0, .9);
+  }
+  
+
+.fa-solid {
+    color: #5d08be; 
+    text-shadow: 0 0 20px #5d08be,0 0 30px #5d08be;
+}
+
+.fa-solid:hover
+{
+    font-size: 115px;
+}
+
+.shadow
+{
+   color: #08be26;
+   text-shadow: 0 0 20px #08be26,0 0 30px #08be26;
+}
